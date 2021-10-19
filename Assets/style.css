@@ -1,0 +1,81 @@
+@font-face {
+	font-family: ASTRO867;
+	src: url(font/ASTRO867.TTF);
+	font-weight: bold;
+}
+@keyframes fadeInAnimation {
+	0% {	
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+video {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+ 	top: 0;
+ 	left: 0;
+	filter: blur(4px);
+}
+html, body {
+	height: 100%;
+	background-color: black;
+}
+body {
+	margin: 0;
+	font-family: ASTRO867;
+}
+.viewport-header {
+	position: absolute;
+	width: 100%;
+	max-width: calc(660px + 15%);
+	top: calc(50% - 50px);
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 2% 5% 2% 5%;
+	box-shadow: rgba(0, 0, 0, 0.40) 0 0 85px;
+	background: #4268c6;
+	box-sizing: border-box;
+	animation: fadeInAnimation ease 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+#logo{
+	max-width: 	100%;
+	animation: fadeInAnimation ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+#pun{
+	text-align: center;
+	font-size: 1.5em;
+	color: white;
+}
+#buttons{
+	width: 100%;
+	height: 60px;
+	float: left;
+	text-align: center;
+}
+#buttons button{
+	position: relative;
+	height: 100%;
+	padding: 0px 16px 0px 16px;
+	margin-right: 5%;
+	display: inline-block;
+	font-family: ASTRO867;
+	background-color: rgba(0,0,0,0); /* Green */
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5em;
+	transition: all 0.3s ease 0s;
+	box-shadow: inset 0px 0px 0px 0px #80b3ff;
+}
+#buttons button:hover{
+	border: 0;
+	box-shadow: inset 200px 0px 0px 0px #80b3ff;
