@@ -1,16 +1,3 @@
-@font-face {
-	font-family: ASTRO867;
-	src: url(font/ASTRO867.TTF);
-	font-weight: bold;
-}
-@keyframes fadeInAnimation {
-	0% {	
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
 video {
 	object-fit: cover;
 	width: 100vw;
@@ -23,10 +10,6 @@ video {
 html, body {
 	height: 100%;
 	background-color: black;
-}
-body {
-	margin: 0;
-	font-family: ASTRO867;
 }
 .viewport-header {
 	position: absolute;

@@ -1,0 +1,23 @@
+.grid-container {
+	display: grid !important; 
+	height: 100%  !important;
+}
+.grid-container--fit {
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	
+}
+.grid-element{
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-blend-mode: soft-light;
+	background-color: #3c3c3c;
+	background-position: center;
+	margin: 0px;
+	transition: all 0.3s ease 0s;
+}
+.grid-element:hover{
+	background-color: #828282;
+	background-blend-mode: overlay;
+}

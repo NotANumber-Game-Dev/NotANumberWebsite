@@ -1,0 +1,17 @@
+@font-face {
+	font-family: ASTRO867;
+	src: url(font/ASTRO867.TTF);
+	font-weight: bold;
+}
+@keyframes fadeInAnimation {
+	0% {	
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+body {
+	margin: 0;
+	font-family: ASTRO867;
+}
